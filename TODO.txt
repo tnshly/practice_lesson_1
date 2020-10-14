@@ -1,0 +1,4 @@
+LESSON 1
+1. In the "SEM TURPIS AMET SEMPER" section add three new cards just like the old ones. I want the title of the first card to say "CARD ONE", the second to say "CARD TWO", and the third to say "CARD THREE". Please find new icons to use for each as well, you can pick the icons.
+2. I don't like the background image of the main hero banner (the area that says "INDUSTRIOUS"). Can you please change that to be a skyline or something a bit more colorful?
+3. I want an alert to pop up whenever any of the cards get clicked. The pop up should say "welcome!"`
