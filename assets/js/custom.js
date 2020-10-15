@@ -1,6 +1,6 @@
 console.log("Hello from custom.js!");
 
-function myFunction() {
+function myIcon() {
     alert("Welcome!");
   }
 
@@ -11,4 +11,11 @@ function myFunction() {
     } else {
       x.style.display = "none";
     }
+  }
+
+  function sConsole(event) {
+    event.preventDefault();
+    var data = document.getElementById("data");
+    console.log(data.value);
+    
   }
