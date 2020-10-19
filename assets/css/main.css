@@ -423,7 +423,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="nam
 	outline: 0;
 	padding: 0 1rem;
 	text-decoration: none;
-	width: 70%;
+	width: 100%;
 }
 
 input[type="text"]:invalid, input[type="password"]:invalid, input[type="email"]:invalid, input[type="name"]:invalid, input[type="tel"]:invalid, input[type="search"]:invalid, input[type="url"]:invalid, select:invalid, textarea:invalid {
@@ -3763,3 +3763,36 @@ body.is-menu-visible #menu {
 	box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
 	visibility: visible;
 }
+
+  .linkSpanner{
+	position:absolute; 
+	width:100%;
+	height:100%;
+	top:0;
+	left: 0;
+	z-index: 1;
+  
+	/* edit: fixes overlap error in IE7/8, 
+	   make sure you have an empty gif 
+	background-image: url('empty.gif');*/
+  }   
+  
+  #myBtn {
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 25px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: red; /* Set a background color */
+	color: white; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 5px; /* Some padding */
+	border-radius: 20px; /* Rounded corners */
+	font-size: 31px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+	background-color: #555; /* Add a dark-grey background on hover */
+  }
